@@ -1,10 +1,17 @@
 <template>
-        <div class="container mx-auto  py-[34px] relative " >
-            <img src="/assets/back.jpg" class=" h-[900px] w-[100%] rounded-[50px] "  >
-            <div class="lg:px-12 md:py-36 pb-6 pt-72 px-6 absolute top-0 left-0 right-0 bottom-0 rounded-3xl">       
-                <div class=" -mx-4 flex flex-wrap items-center space-x-6 mt-24 space-x-0 ">
-                    <MainText></MainText>
+        <div class="container mx-auto pb-12 px-4  relative " >
+            <img src="/assets/back.jpg" class=" bg-center  bg-no-repeat bg-cover rounded-[20px] z-0 "  >
+            
+                <div class="-mx-4 flex flex-wrap items-center mt-24 space-y-6 lg:space-y-0">
+                    <div class="px-4 w-full md:w-8/12 xl:w-6/12  lg:bottom-1 lg:pl-20">      
+                        <div class="abs">
+
+                            <MainText></MainText>
+                        </div>              
+                      
+                    </div> 
+
                 </div>
-            </div> 
-        </div>
+            </div>
+    
 </template>

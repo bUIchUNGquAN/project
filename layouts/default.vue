@@ -1,19 +1,20 @@
 <template>
     <div class="bg-white">
         <!-- header -->
-        <div class="h-[108px]   ">
-            <div class="w-full fixed z-10  bg-white "  >
+        <div class="lg:h-[108px]   ">
+            <div class="w-full fixed z-10 bg-white "  >
                 
                 <HeaderLeft></HeaderLeft>
             </div>
         </div>
 
         <!-- main -->
-        <div class="h-full">
-            <div>
+        <div class="h-full ">
+            <div >
                 <MainMain1></MainMain1>
             </div>
-            <div >
+            <div>
+                
                 <MainMain2></MainMain2>
             </div>
             <div>
@@ -28,7 +29,7 @@
         </div>
 
         <!-- footer -->
-        <div class="bg-green-300 h-[100%]">
+        <div class="bg-green-100 h-[100%]">
            <div class="mx-auto py-4 pb-12">
                 <FooterFooterleft></FooterFooterleft>
            </div>
